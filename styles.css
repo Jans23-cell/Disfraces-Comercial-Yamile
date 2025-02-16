@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #11ee1c;
+}
+header {
+    background-color: #C8A2C8;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+nav {
+    background-color: #C8A2C8;
+    overflow: hidden;
+}
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    float: left;
+}
+nav a:hover {
+    background-color: #a32424;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.category {
+    background-color: #5ecafc;
+    border: 1px solid #ddd;
+    margin: 10px;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.category img {
+    width: 60%;
+    height: auto;
+}
+footer {
+    background-color: #C8A2C8;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.contact-info {
+    margin-top: 20px;
+    text-align: center;
+}
+.category img {
+    width: 60%;       /* Asegura que la imagen ocupe el 100% del ancho del contenedor */
+    height: auto;      /* Mantiene la relación de aspecto original */
+    object-fit: cover; /* Asegura que la imagen se recorte adecuadamente si es necesario */
+}
+.category {
+    margin-bottom: 30px;
+}
+.category img {
+    max-width: 100%;
+    height: auto;
+}
+.talla-selector, .cantidad-selector {
+    margin-top: 10px;
+}
+.whatsapp-link {
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #25D366;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.price {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.whatsapp-icon {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    background-color: #25d366;
+    border-radius: 50%;
+    padding: 15px;
+    color: white;
+    font-size: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
